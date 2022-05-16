@@ -61,6 +61,14 @@ it takes screenshot each and every time we release the mouse by only
 changing the state in the PaintBoard class.
 
 ## S.O.L.I.D Principles
+**1. Single-Responsibility Principle**
+A class should have one and only one reason to change, meaning that a class should have only one job, that's why we made classes like ShapeCopier, ShapeFiller, ShapeMover and ShapeResizer. Those classes are only responsiple for one job as shown from their names.
+
+**2. Open-Closed Principle**
+Objects or entities should be open for extension but closed for modification, so if anyone wants to contribute to project and add another shape, he can do so effortlessly by adding a class and extending it from "GeometricShape" class.
+
+**3. Interface Segregation Principle**
+Each method in each class is there for a reason, there is no unused method, so if you are adding extra shape, you probably won't be forced to implement a method you won't use.
 
 ## Documentation
 [Project Documentation](ProjectDocumentation.pdf)
