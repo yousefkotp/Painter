@@ -63,7 +63,7 @@ public class StartPage extends javax.swing.JFrame {
         });
 
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/finalprojectpaint_v1/YAMY LOGO.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/YAMY LOGO.png"))); // NOI18N
         jLabel2.setBorder(new javax.swing.border.MatteBorder(null));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -133,8 +133,7 @@ public class StartPage extends javax.swing.JFrame {
                 "Participants:\n------------------\n"
                 + "1. Mohamed Farid      -  Group 3  -  6905\n"
                 + "2. Adham Mohamed  -  Group 1  -  6744\n"
-                + "3. Youssef AbouEid   -  Group 4  -  6883\n"
-                + "4. Youssef Kotp          -  Group 4  -  7140\n",
+                + "3. Youssef Kotp          -  Group 4  -  7140\n",
                  "Project Details", JOptionPane.INFORMATION_MESSAGE);
 
     }//GEN-LAST:event_projectDetailsButtonActionPerformed

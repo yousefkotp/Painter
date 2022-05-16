@@ -47,7 +47,7 @@ public class Triangle extends GeometricShape implements Cloneable{
         int x1 = this.getPoint1().getX() , x2 = this.getPoint2().getX() , x3 = this.getPoint3().getX();
         int y1 = this.getPoint1().getY() , y2 = this.getPoint2().getY() , y3 = this.getPoint3().getY();
 
-        java.awt.Polygon p = new java.awt.Polygon(new int[]{x1, x2, x3}, new int[]{y1, y2, y3}, 3);
+        Polygon p = new Polygon(new int[]{x1, x2, x3}, new int[]{y1, y2, y3}, 3);
         return p.contains(x,y);
     }
 

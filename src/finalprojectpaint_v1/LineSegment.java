@@ -35,7 +35,7 @@ public class LineSegment extends GeometricShape implements Cloneable {
         int x1 = this.getPoint1().getX() + 5, x2 = this.getPoint1().getX() - 5, x3 = this.getPoint2().getX() - 5, x4 = this.getPoint2().getX() + 5;
         int y1 = this.getPoint1().getY() + 5, y2 = this.getPoint1().getY() - 5, y3 = this.getPoint2().getY() - 5, y4 = this.getPoint2().getY() + 5;
 
-        java.awt.Polygon p = new java.awt.Polygon(new int[]{x1, x2, x3, x4}, new int[]{y1, y2, y3, y4}, 4);
+        Polygon p = new Polygon(new int[]{x1, x2, x3, x4}, new int[]{y1, y2, y3, y4}, 4);
         return p.contains(x,y);
     }
 
