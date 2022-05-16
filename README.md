@@ -1,5 +1,15 @@
 # Painter
 Graphical paint program which allows the user to draw with different colors and strokes, it also allows the user to draw diffrent types of shapes and manipulate them by resizing, filling, moving and cloning them. It also supports undo and redo operations. 
+## Table of Content
+- [Painter](#painter)
+  * [Project Functionalities](#project-functionalities)
+  * [Tools](#tools)
+  * [Deployment](#deployment)
+  * [Design Patterns](#design-patterns)
+  * [S.O.L.I.D Principles](#solid-principles)
+  * [Documentation](#documentation)
+  * [Contributers](#contributers)
+  * [Screenshots](#screenshots)
 
 ## Project Functionalities
 1. Draw using brush
@@ -76,7 +86,7 @@ Each method in each class is there for a reason, there is no unused method, so i
 1. [Yousef Kotp](https://github.com/yousefkotp)
 2. [Mohamed Farid](https://github.com/MohamedFarid612)
 3. [Adham Mohamed](https://github.com/adhammohamed1)
-# Screenshots
+## Screenshots
 ![image](https://user-images.githubusercontent.com/41492875/132782674-2f777635-4ae4-45be-b560-2b5a1dc1cde0.png)
 
 ![screen](https://user-images.githubusercontent.com/41492875/132788122-ab423bb7-a12c-46c9-a90c-c8a78626e492.png)
