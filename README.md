@@ -63,7 +63,7 @@ changing the state in the PaintBoard class.
 ## S.O.L.I.D Principles
 
 ## Documentation
-[Project Documentation](Project_Documentation.pdf)
+[Project Documentation](ProjectDocumentation.pdf)
 ## Contributers
 1. [Yousef Kotp](https://github.com/yousefkotp)
 2. [Mohamed Farid](https://github.com/MohamedFarid612)
