@@ -64,7 +64,7 @@ Geometric shapes needed to be drawn by only using 2 basic methods
 which are : “hasNext()” and “next()” avoiding looping with varying
 conditions.
 
-**6. Iterator Design Pattern**
+**6. Observer Design Pattern**
 Observer design pattern helped us with automatic
 screenshotting(update method) while drawing (auto-documentation) as
 it takes screenshot each and every time we release the mouse by only
